@@ -1,0 +1,99 @@
+.nav{
+    width:98%;
+    height:30px;
+    background: white;
+    overflow: hidden;
+    display:flex;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    position:sticky;
+    top:0;
+}
+.menu{
+    display:flex;
+    float:right;
+    align-items: right;
+    justify-content: right;
+    width:80vw;
+}
+.logo{
+    font-size:27px;
+    font-family: verdana;
+    font-weight: bolder;
+}
+.home{
+    margin-right:50px;
+    font-size:23px;
+    margin-bottom:0px;
+    font-family: Verdana;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.about{
+    margin-right:50px;
+    font-size:23px;
+    margin-bottom:0px;
+    font-family: Verdana;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.big{
+    margin-right:50px;
+    font-size:23px;
+    margin-bottom:0px;
+    font-family: Verdana;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.nav a{
+    text-decoration: none;
+    color:black;
+    margin-left:5px;
+    margin-right:5px;
+}
+.content{
+    margin:5px;
+}
+.row{
+    margin-top:5px;
+    margin-bottom:15px;
+    display:flex;
+}
+.box{
+    width:350px;
+    height:250px;
+    border-radius:18px;
+    border:2px solid black;
+    margin-left:15px;
+    box-shadow: inset 0px 0px 8px 5px black;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+.content a{
+    text-decoration: none;
+}
+.b1{
+    background:url(tic.jpg);
+    background-size: 350px 250px;
+}
+.b2{
+    background:url(stone.jpg);
+    background-size: 350px 250px;
+}
+.b3{
+    background:url(mava.jpg);
+    background-size: 350px 250px;
+}
+.b4{
+    background:url(jambu.jpg);
+    background-size: 350px 255px;
+}
+.text{
+    font-family:verdana;
+    font-size:20px;
+    margin-top:20px;
+    margin-left:20px;
+    font-weight: bolder;
+}
